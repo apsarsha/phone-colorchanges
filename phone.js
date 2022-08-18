@@ -11,14 +11,14 @@ let moonlight= document.querySelector(".redmi")
 let otherlight= document.querySelector(".vivo")
 
 
-let defaultImgItems =`<img src= "${phoneImages.at(0)}">`
+let defaultImgItems =`<img  src= "${phoneImages.at(0)}">`
 
 phoneCont.innerHTML = defaultImgItems
 
-let blueImgItems = `<img  src= "${phoneImages.at(1)}">`
+let blueImgItems = `<img "w-100" src= "${phoneImages.at(1)}">`
 let pinkImgItems = `<img "w-100" src= "${phoneImages.at(2)}">`
 let starImgItems = `<img "w-100" src= "${phoneImages.at(3)}">`
-let moonlightImgItems = `<img "w-100" src= "${phoneImages.at(4)}">`
+let moonlightImgItems = `<img src= "${phoneImages.at(4)}">`
 
 let otherlightImgItems = `<img "w-100" src= "${phoneImages.at(5)}">`
 
